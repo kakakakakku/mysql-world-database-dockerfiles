@@ -11,5 +11,13 @@ Dockerfiles for MySQL pre-loaded sample database "world database" 🐳
 
 - 5.5
 - 5.6
-- 5.7
+- 5.7 (latest)
 - 8.0
+
+## Usage
+
+```sh
+$ docker pull kakakakakku/mysql-world-database
+$ docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d kakakakakku/mysql-world-database
+$ docker exec -it $(docker container ls | grep 'kakakakakku/mysql-world-database' | awk '{print $1}') /bin/sh
+```
