@@ -1,0 +1,30 @@
+version: 1
+update_configs:
+  - package_manager: docker
+    directory: /5.5
+    update_schedule: weekly
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
+  - package_manager: docker
+    directory: /5.6
+    update_schedule: weekly
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
+  - package_manager: docker
+    directory: /5.7
+    update_schedule: weekly
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
+  - package_manager: docker
+    directory: /8.0
+    update_schedule: weekly
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
