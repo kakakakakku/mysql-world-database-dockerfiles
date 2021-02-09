@@ -6,25 +6,25 @@ update_configs:
     automerged_updates:
       - match:
           dependency_type: all
-          update_type: semver:minor
+          update_type: security:patch
   - package_manager: docker
     directory: /5.6
     update_schedule: weekly
     automerged_updates:
       - match:
           dependency_type: all
-          update_type: semver:minor
+          update_type: security:patch
   - package_manager: docker
     directory: /5.7
     update_schedule: weekly
     automerged_updates:
       - match:
           dependency_type: all
-          update_type: semver:minor
+          update_type: security:patch
   - package_manager: docker
     directory: /8.0
     update_schedule: weekly
     automerged_updates:
       - match:
           dependency_type: all
-          update_type: semver:minor
+          update_type: security:patch
