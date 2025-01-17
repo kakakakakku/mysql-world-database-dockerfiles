@@ -13,6 +13,8 @@ Dockerfiles for MySQL pre-loaded sample database "world database" 🐳
 - 5.6
 - 5.7 (latest)
 - 8.0
+- 8.4
+- 9.1
 
 ## Usage
 
